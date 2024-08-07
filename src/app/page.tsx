@@ -1,5 +1,5 @@
+import { SectionHero } from "@/components/SectionHero";
+
 export default function Home() {
-  return (
-    <h1>Case Study</h1>
-  );
+  return <SectionHero />;
 }
