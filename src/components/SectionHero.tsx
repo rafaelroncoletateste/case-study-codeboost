@@ -4,6 +4,7 @@ import { Container } from "@/components/Container";
 import ImgAppStore from "@/assets/btn-apple-store.svg";
 import ImgGooglePlay from "@/assets/btn-google-play.svg";
 import Arrow from "@/assets/arrow-explorer.svg";
+import Woman from "@/assets/woman.png";
 
 export function SectionHero() {
   return (
@@ -27,9 +28,13 @@ export function SectionHero() {
           </div>
           <button className="flex items-center gap-3">
             <Image src={Arrow} alt="Arrow down" />
-            <span className="text-white text-sm font-bold">Continuar Explorando</span>
+            <span className="text-white text-sm font-bold">
+              Continuar Explorando
+            </span>
           </button>
         </div>
+
+        <Image src={Woman} alt="Woman" className="mr[-41px]" />
       </Container>
     </section>
   );
